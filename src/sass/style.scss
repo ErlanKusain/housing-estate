@@ -10,9 +10,13 @@ body {
 
     background-color: #242B33;
 }
-
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+}
 @import 'base/mixins';
 @import 'base/variables';
 @import 'base/title';
 @import 'blocks/header';
 @import 'blocks/advantage';
+@import 'blocks/apartments';
