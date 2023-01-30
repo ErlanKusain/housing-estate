@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -10,13 +15,12 @@ body {
 
     background-color: #242B33;
 }
-h1,h2,h3,h4,h5,h6 {
-    padding: 0;
-    margin: 0;
-}
+
 @import 'base/mixins';
 @import 'base/variables';
 @import 'base/title';
 @import 'blocks/header';
 @import 'blocks/advantage';
 @import 'blocks/apartments';
+@import 'blocks/about';
+@import 'blocks/forms';

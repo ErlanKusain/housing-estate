@@ -1,0 +1,28 @@
+.about {
+    height: 560px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background: url(../../img/bg/second-bg.png) center center / cover no-repeat;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2,545px);
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text {
+        margin-top: 70px;
+    }
+    &__descr {
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+    }
+    &__form {
+        display: grid;
+        grid-template-columns: repeat(2,255px);
+        grid-template-rows: repeat(2,55px);
+        column-gap: 30px;
+        row-gap: 45px;
+    }
+}
