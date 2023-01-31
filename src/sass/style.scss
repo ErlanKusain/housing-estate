@@ -4,16 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-}
 body {
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 
     background-color: #242B33;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 @import 'base/mixins';
@@ -26,3 +26,4 @@ body {
 @import 'blocks/forms';
 @import 'blocks/map';
 @import 'blocks/footer';
+@import 'blocks/media';
