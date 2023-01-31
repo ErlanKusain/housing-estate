@@ -1,0 +1,28 @@
+.footer {
+    margin-top: 180px;
+    min-height: 280px;
+    background: #2D343C;
+    padding: 70px 0 50px 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(4,minmax(120px, 300px));
+        column-gap: 85px;
+        justify-content: center;
+    }
+    &__items {
+        a {
+            font-family: 'Raleway', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #fff;
+            text-decoration: none;
+        }
+        li {
+            list-style-type: none;
+        }
+        &-social {
+            margin-top: 20px;
+        }
+    }
+}

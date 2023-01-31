@@ -1,0 +1,18 @@
+.map {
+    margin-top: 100px;
+    min-height: 400px;
+    &-block {
+        margin-top: 100px;
+    }
+    .questions__block {
+        margin-top: 180px;
+    }
+    .questions__form {
+        display: grid;
+        grid-template-columns: repeat(4,255px);
+        column-gap: 35px;
+        justify-content: start;
+        align-items: center;
+        margin-top: 60px;
+    }
+}

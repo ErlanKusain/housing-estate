@@ -7,7 +7,9 @@
         display: grid;
         grid-template-columns: repeat(2,535px);
         grid-auto-columns: 535px;
-        column-gap: 30px;
+        grid-template-rows: repeat(2,320px);
+        column-gap: 40px;
+        row-gap: 40px;
     }
     &__item {
         &-block {

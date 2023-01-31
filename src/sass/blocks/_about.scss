@@ -2,11 +2,11 @@
     height: 560px;
     padding-top: 180px;
     padding-bottom: 180px;
-    background: url(../../img/bg/second-bg.png) center center / cover no-repeat;
+    background: url(../img/bg/second-bg.png) center center / cover no-repeat;
     &__wrapper {
         display: grid;
         grid-template-columns: repeat(2,545px);
-        justify-content: space-between;
+        column-gap: 20px;
         align-items: center;
     }
     &__text {
