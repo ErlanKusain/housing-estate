@@ -11,6 +11,19 @@
     .container {
         max-width: 960px;
     }
+    .header {
+        &__block {
+            margin-top: 200px;
+        }
+    }
+    .advantage {
+        &__wrapper {
+            column-gap: 40px;
+        }
+        &__block {
+            margin-top: 160px;
+        }
+    }
 }
 
 @media(max-width: 992px) {
@@ -52,6 +65,17 @@
             bottom: 35px;
         }
     }
+    .advantage {
+        &__wrapper {
+            grid-template-columns: repeat(4, 175px);
+            column-gap: unset;
+        }
+        &__item {
+            &-descr {
+                font-size: 18px;
+            }
+        }
+    }
 }
 
 @media(max-width: 768px) {
@@ -69,12 +93,30 @@
         .menu {
             width: 45%;
         }
+        &__block {
+            margin-top: 200px;
+        }
     }
     .social {
         position: absolute;
         bottom: 35px;
     }
+    .advantage {
+        margin-top: 60px;
+        &__wrapper {
+            grid-template-columns: repeat(4, 135px);
+            column-gap: unset;
+        }
+        &__item {
+            &-descr {
+                font-size: 14px;
+            }
+        }
+    }
 }
+
+
+
 @media(max-width: 576px) {
     .container{
         width: 100%;
@@ -114,6 +156,19 @@
     }
     .hamburger {
         top: 37px;
+    }
+    .advantage {
+        margin-top: 10px;
+        &__wrapper {
+            grid-template-columns: repeat(2, 145px);
+            column-gap: unset;
+            row-gap: 30px;
+        }
+        &__item {
+            &-descr {
+                font-size: 14px;
+            }
+        }
     }
 }
 
