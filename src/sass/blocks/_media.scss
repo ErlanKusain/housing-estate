@@ -2,6 +2,9 @@
     .hamburger {
         display: none;
     }
+    .social {
+        display: none;
+    }
 }
 
 @media(max-width: 1200px) {
@@ -24,13 +27,14 @@
             align-items: center;
             width: 35%;
             height: 100vh;
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 0, 0, 0.8);
             z-index: 5;
+            transition: 0.5s all;
             &__block {
                 display: block;
                 flex-direction: column;
                 margin-top: 150px;
-                margin-left: 30%;
+                margin-left: 25%;
             }
             &_active {
                 right: 0;
@@ -43,5 +47,73 @@
                 font-size: 20px;
             }
         }
+        .social {
+            position: absolute;
+            bottom: 35px;
+        }
     }
 }
+
+@media(max-width: 768px) {
+    .container{
+        max-width: 500px;
+    } 
+    .header {
+        &__title {
+            font-size: 42px;
+            width: 500px;
+            &::after {
+                display: none;
+            }
+        }
+        .menu {
+            width: 45%;
+        }
+    }
+    .social {
+        position: absolute;
+        bottom: 35px;
+    }
+}
+@media(max-width: 576px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    } 
+    .header {
+        &__logo {
+            margin-top: -10px;
+            margin-left: 20px;
+        }
+        &__title {
+            font-size: 27px;
+            width: 310px;
+            margin-top: 150px;
+            &::after {
+                display: none;
+            }
+            &__logo {
+                width: 100px;
+                height: 100px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .menu {
+            width: 90%;
+        }
+        &__block {
+            display: none;
+        }
+        .social {
+            position: absolute;
+            bottom: 90px;
+        }
+    }
+    .hamburger {
+        top: 37px;
+    }
+}
+

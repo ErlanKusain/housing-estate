@@ -19,6 +19,9 @@
             font-size: 14px;
             text-decoration: none;
             font-family: 'Raleway', sans-serif;
+            &:hover {
+                color: $main-color;
+            }
         }
     }
     &__title {
@@ -35,7 +38,7 @@
         color: $main-color;
         cursor: pointer;
         &::after {
-            content: url(../../img/icons/mouse.svg);
+            content: url(../img/icons/mouse.svg);
             position: absolute;
             top: 200px;
             left:  250px;
@@ -74,10 +77,11 @@
         }
     }
 }
+
 .hamburger{
     position: absolute;
     right: 35px;
-    top: 40px;
+    top: 45px;
     width: 40px;
     height: 30px;
 
@@ -107,9 +111,6 @@
             &:nth-child(3){
                 transform: translateY(-14px) rotate(-45deg);
             }
-                    &:hover{
-            color: $main-color;
-        }
         }
 
     }
