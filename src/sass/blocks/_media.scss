@@ -25,6 +25,9 @@
         }
     }
     .apartments {
+        &__title {
+            margin-left: 70px;
+        }
         &__wrapper {
             grid-template-columns: repeat(1, 700px);
             row-gap: 120px;
@@ -38,6 +41,21 @@
             }
         }
 
+    }
+    .about {
+        &__title {
+            margin-left: 70px;
+        }
+        &__wrapper {
+            display: grid;
+            grid-template-columns: repeat(1,820px);
+            column-gap: 20px;
+            row-gap: 45px;
+            justify-content: center;
+        }
+        &__form {
+            grid-template-columns: repeat(3,250px);
+        }
     }
 }
 
@@ -92,6 +110,9 @@
         }
     }
     .apartments {
+        &__title {
+            margin-left: 0px;
+        }
         &__wrapper {
             grid-template-columns: repeat(1, 700px);
             row-gap: 120px;
@@ -105,6 +126,19 @@
             }
         }
 
+    }
+    .about {
+        &__title {
+            margin-left: 0px;
+        }
+        &__wrapper {
+            grid-template-columns: repeat(1,710px);
+        }
+        &__form {
+            grid-template-columns: repeat(2,255px);
+            justify-content: center;
+            column-gap: 45px;
+        }
     }
 }
 
@@ -144,6 +178,9 @@
         }
     }
     .apartments {
+        &__title {
+            margin-left: 0px;
+        }
         &__wrapper {
             grid-template-columns: repeat(1, 550px);
             row-gap: 30px;
@@ -157,6 +194,19 @@
             }
         }
 
+    }
+    .about {
+        &__title {
+            margin-left: 0px;
+        }
+        &__wrapper {
+            grid-template-columns: repeat(1,525px);
+        }
+        &__form {
+            grid-template-columns: repeat(2,255px);
+            justify-content: center;
+            column-gap: 15px;
+        }
     }
 }
 
@@ -217,6 +267,9 @@
     }
     .apartments {
         &__title {
+            margin-left: 0px;
+        }
+        &__title {
             font-size: 27px;
             margin-bottom: 40px;
             text-align: center;
@@ -242,6 +295,21 @@
             }
         }
 
+    }
+    .about {
+        padding-top: 95px;
+        &__title {
+            font-size: 27px;
+            text-align: center;
+            margin-left: 0px;
+        }
+        &__wrapper {
+            grid-template-columns: repeat(1,262px);
+        }
+        &__form {
+            grid-template-columns: repeat(1,255px);
+            row-gap: 20px;
+        }
     }
 }
 
