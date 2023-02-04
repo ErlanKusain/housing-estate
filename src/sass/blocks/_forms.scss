@@ -33,4 +33,12 @@
         color: #fff;
         text-align: center;
     }
+    .error {
+        border: solid 2px red;
+    }
+    label.error {
+        border: none;
+        color: #fff;
+        text-align: center;
+    }
 }

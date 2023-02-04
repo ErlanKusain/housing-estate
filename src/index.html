@@ -143,12 +143,12 @@
                     <p class="about__descr">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
                 </div>
     
-                <form action="" class="about__form form">
+                <form class="about__form form" id="about-form" action="">
                     <div class="about__form-input">
                         <input required name="name" placeholder="Ваше имя" type="text">
                     </div>
                     <div class="about__form-input">
-                        <input required name="tel" placeholder="Ваш телефон" type="tel">
+                        <input required name="phone" placeholder="Ваш телефон" type="tel">
                     </div>
                     <p class="about__form-input form__descr">*Мы никому не передаем ваши данные. 
                     И не сохраняем ваш номер в базу.</p>
@@ -167,13 +167,9 @@
 
             <div class="questions__block">
                 <h2 class="about__title title">Есть вопросы?</h2>
-                <form action="" class="questions__form form">
-                    <div class="questions__form-input">
+                <form class="questions__form form" id="questions-form" action="#">
                         <input required name="name" placeholder="Ваше имя" type="text">
-                    </div>
-                    <div class="questions__form-input">
-                        <input required name="tel" placeholder="Ваш телефон" type="tel">
-                    </div>
+                        <input required name="phone" placeholder="Ваш телефон" type="tel">
                     <p class="questions__form-input form__descr">*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
                     <button class="questions__form-button button">Посмотреть район</button>
                 </form>
@@ -224,6 +220,10 @@
         </div>
     </footer>
 
+    <script  src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script  src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
