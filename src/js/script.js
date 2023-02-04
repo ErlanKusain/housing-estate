@@ -64,5 +64,14 @@ $(document).ready(function(){
     });
     return false;
   });
+
+    $('.button').on('click', function() {
+    $('.overlay, #thanks').fadeIn('slow');
+
+  });
+  });
+
+  $('.modal__close').on('click', function() {
+    $('.overlay, #consultation, #order, #thanks').fadeOut('slow');
 });
 
