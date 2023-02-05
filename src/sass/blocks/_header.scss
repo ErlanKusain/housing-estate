@@ -24,6 +24,22 @@
                 color: $main-color;
             }
         }
+        &__items {
+            a {
+                font-family: 'Raleway', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 30px;
+                color: #fff;
+                text-decoration: none;
+            }
+            li {
+                list-style-type: none;
+            }
+            &-social {
+                margin-top: 20px;
+            }
+        }
     }
     &__title {
         position: relative;
